@@ -1,0 +1,266 @@
+[
+	{
+		"c": "-",
+		"t": "source.yaml punctuation.definition.block.sequence.item.yaml",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": " ",
+		"t": "source.yaml",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "blue",
+		"t": "source.yaml string.unquoted.plain.out.yaml entity.name.tag.yaml",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "entity.name.tag: #569CD6"
+		}
+	},
+	{
+		"c": ":",
+		"t": "source.yaml punctuation.separator.key-value.mapping.yaml",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": " ",
+		"t": "source.yaml",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "a=\"brown,not_brown\"",
+		"t": "source.yaml string.unquoted.plain.out.yaml",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "string: #CE9178"
+		}
+	},
+	{
+		"c": "-",
+		"t": "source.yaml punctuation.definition.block.sequence.item.yaml",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": " ",
+		"t": "source.yaml",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "not_blue",
+		"t": "source.yaml string.unquoted.plain.out.yaml entity.name.tag.yaml",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "entity.name.tag: #569CD6"
+		}
+	},
+	{
+		"c": ":",
+		"t": "source.yaml punctuation.separator.key-value.mapping.yaml",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": " ",
+		"t": "source.yaml",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "foo",
+		"t": "source.yaml string.unquoted.plain.out.yaml",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "string: #CE9178"
+		}
+	},
+	{
+		"c": "-",
+		"t": "source.yaml punctuation.definition.block.sequence.item.yaml",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": " ",
+		"t": "source.yaml",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "blue",
+		"t": "source.yaml string.unquoted.plain.out.yaml entity.name.tag.yaml",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "entity.name.tag: #569CD6"
+		}
+	},
+	{
+		"c": ":",
+		"t": "source.yaml punctuation.separator.key-value.mapping.yaml",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": " ",
+		"t": "source.yaml",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "foo=\"}\"",
+		"t": "source.yaml string.unquoted.plain.out.yaml",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "string: #CE9178"
+		}
+	},
+	{
+		"c": "-",
+		"t": "source.yaml punctuation.definition.block.sequence.item.yaml",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": " ",
+		"t": "source.yaml",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "not_blue",
+		"t": "source.yaml string.unquoted.plain.out.yaml entity.name.tag.yaml",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "entity.name.tag: #569CD6"
+		}
+	},
+	{
+		"c": ":",
+		"t": "source.yaml punctuation.separator.key-value.mapping.yaml",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": " ",
+		"t": "source.yaml",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "1",
+		"t": "source.yaml constant.numeric.integer.yaml",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "constant.numeric: #B5CEA8"
+		}
+	}
+]

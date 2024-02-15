@@ -1,0 +1,221 @@
+{
+	"version": "0.1.0",
+	"configurations": [
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "Gulp Build",
+			"program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+			"stopOnEntry": true,
+			"args": [
+				"hygiene"
+			]
+		},
+		{
+			"type": "node",
+			"request": "attach",
+			"name": "Attach to Extension Host",
+			"port": 5870,
+			"restart": true,
+			"outFiles": [
+				"${workspaceFolder}/out/**/*.js"
+			]
+		},
+		{
+			"type": "chrome",
+			"request": "attach",
+			"name": "Attach to Shared Process",
+			"port": 9222,
+			"urlFilter": "*"
+		},
+		{
+			"type": "node",
+			"request": "attach",
+			"name": "Attach to Search Process",
+			"port": 5876,
+			"outFiles": [
+				"${workspaceFolder}/out/**/*.js"
+			]
+		},
+		{
+			"type": "node",
+			"request": "attach",
+			"name": "Attach to CLI Process",
+			"port": 5874,
+			"outFiles": [
+				"${workspaceFolder}/out/**/*.js"
+			]
+		},
+		{
+			"type": "node",
+			"request": "attach",
+			"name": "Attach to Main Process",
+			"port": 5875,
+			"outFiles": [
+				"${workspaceFolder}/out/**/*.js"
+			]
+		},
+		{
+			"type": "chrome",
+			"request": "attach",
+			"name": "Attach to azuredatastudio",
+			"port": 9222
+		},
+		{
+			"type": "chrome",
+			"request": "launch",
+			"name": "Launch azuredatastudio",
+			"windows": {
+				"runtimeExecutable": "${workspaceFolder}/scripts/sql.bat",
+				"timeout": 20000
+			},
+			"osx": {
+				"runtimeExecutable": "${workspaceFolder}/scripts/sql.sh",
+				"timeout": 20000
+			},
+			"linux": {
+				"runtimeExecutable": "${workspaceFolder}/scripts/sql.sh",
+				"timeout": 20000
+			},
+			"env": {
+				"VSCODE_EXTHOST_WILL_SEND_SOCKET": null
+			},
+			"breakOnLoad": false,
+			"urlFilter": "*workbench.html*",
+			"runtimeArgs": [
+				"--inspect=5875",
+				"--no-cached-data"
+			],
+			"webRoot": "${workspaceFolder}"
+		},
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "Launch ADS (Main Process)",
+			"runtimeExecutable": "${workspaceFolder}/scripts/sql.sh",
+			"runtimeArgs": [
+				"--no-cached-data"
+			],
+			"outFiles": [
+				"${workspaceFolder}/out/**/*.js"
+			]
+		},
+		{
+			"type": "chrome",
+			"request": "launch",
+			"name": "Launch azuredatastudio with new notebook command",
+			"windows": {
+				"runtimeExecutable": "${workspaceFolder}/scripts/sql.bat"
+			},
+			"osx": {
+				"runtimeExecutable": "${workspaceFolder}/scripts/sql.sh"
+			},
+			"linux": {
+				"runtimeExecutable": "${workspaceFolder}/scripts/sql.sh"
+			},
+			"urlFilter": "*index.html*",
+			"runtimeArgs": [
+				"--inspect=5875",
+				"--command=notebook.command.new"
+			],
+			"skipFiles": [
+				"**/winjs*.js"
+			],
+			"webRoot": "${workspaceFolder}",
+			"timeout": 45000
+		},
+		{
+			"name": "Launch Built-in Extension",
+			"type": "extensionHost",
+			"request": "launch",
+			"runtimeExecutable": "${execPath}",
+			"args": [
+				"--extensionDevelopmentPath=${workspaceRoot}/extensions/debug-auto-launch"
+			]
+		},
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "Launch Smoke Test",
+			"program": "${workspaceFolder}/test/smoke/test/index.js",
+			"cwd": "${workspaceFolder}/test/smoke",
+			"env": {
+				"BUILD_ARTIFACTSTAGINGDIRECTORY": "${workspaceFolder}"
+			}
+		},
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "Run Unit Tests",
+			"program": "${workspaceFolder}/test/electron/index.js",
+			"runtimeExecutable": "${workspaceFolder}/.build/electron/Azure Data Studio.app/Contents/MacOS/Electron",
+			"windows": {
+				"runtimeExecutable": "${workspaceFolder}/.build/electron/azuredatastudio.exe"
+			},
+			"linux": {
+				"runtimeExecutable": "${workspaceFolder}/.build/electron/azuredatastudio"
+			},
+			"outputCapture": "std",
+			"args": [
+				"--remote-debugging-port=9222"
+			],
+			"cwd": "${workspaceFolder}",
+			"outFiles": [
+				"${workspaceFolder}/out/**/*.js"
+			]
+		},
+		{
+			"type": "chrome",
+			"request": "launch",
+			"name": "Run Extension Unit Tests",
+			"windows": {
+				"runtimeExecutable": "${workspaceFolder}/scripts/test-extensions-unit.bat"
+			},
+			"osx": {
+				"runtimeExecutable": "${workspaceFolder}/scripts/test-extensions-unit.sh"
+			},
+			"linux": {
+				"runtimeExecutable": "${workspaceFolder}/scripts/test-extensions-unit.sh"
+			},
+			"webRoot": "${workspaceFolder}",
+			"timeout": 45000
+		},
+	],
+	"compounds": [
+		{
+			"name": "Debug Unit Tests",
+			"configurations": [
+				"Attach to azuredatastudio",
+				"Run Unit Tests"
+			]
+		},
+		{
+			"name": "Debug Extension Unit Tests",
+			"configurations": [
+				"Attach to Extension Host",
+				"Run Extension Unit Tests"
+			]
+		},
+		{
+			"name": "Debug azuredatastudio Main and Renderer",
+			"configurations": [
+				"Launch azuredatastudio",
+				"Attach to Main Process"
+			]
+		},
+		{
+			"name": "Search and Renderer processes",
+			"configurations": [
+				"Launch azuredatastudio",
+				"Attach to Search Process"
+			]
+		},
+		{
+			"name": "Renderer and Extension Host processes",
+			"configurations": [
+				"Launch azuredatastudio",
+				"Attach to Extension Host"
+			]
+		}
+	]
+}

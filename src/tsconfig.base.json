@@ -1,0 +1,36 @@
+{
+	"compilerOptions": {
+		"module": "amd",
+		"moduleResolution": "node",
+		"noImplicitAny": false,
+		"target": "es5",
+		"experimentalDecorators": true,
+		"noImplicitReturns": true,
+		"noUnusedLocals": false,
+		"noImplicitThis": true,
+		"alwaysStrict": true,
+		"strictBindCallApply": true,
+		"strictNullChecks": false,
+		"forceConsistentCasingInFileNames": true,
+		"baseUrl": ".",
+		"paths": {
+			"vs/*": [
+				"./vs/*"
+			],
+			"sql/*": [
+				"./sql/*"
+			],
+			"sqltest/*": [
+				"./sqltest/*"
+			]
+		},
+		"types": [
+			"keytar",
+			"minimist",
+			"mocha",
+			"semver",
+			"sinon",
+			"winreg"
+		]
+	}
+}

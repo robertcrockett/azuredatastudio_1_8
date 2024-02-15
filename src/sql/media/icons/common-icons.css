@@ -1,0 +1,303 @@
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the Source EULA. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vs .icon.backup {
+	background: url("backup.svg") center center no-repeat;
+}
+
+.vs-dark .icon.backup,
+.hc-black .icon.backup {
+	background: url("backup_inverse.svg") center center no-repeat;
+}
+
+.vs .icon.restore {
+	background: url("restore.svg") center center no-repeat;
+}
+
+.vs-dark .icon.restore,
+.hc-black .icon.restore {
+	background: url("restore_inverse.svg") center center no-repeat;
+}
+
+.vs .icon.database {
+	background: url("database.svg") center center no-repeat;
+}
+
+.vs-dark .icon.database,
+.hc-black .icon.database {
+	background: url("database_inverse.svg") center center no-repeat;
+}
+
+.vs .icon.error,
+.vs-dark .icon.error,
+.hc-black .icon.error {
+	background: url("globalerror_red.svg") center center no-repeat;
+}
+
+.vs .icon.file {
+	background: url("file.svg") center center no-repeat;
+}
+
+.vs-dark .icon.file,
+.hc-black .icon.file {
+	background: url("file_inverse.svg") center center no-repeat;
+}
+
+.vs .icon.new-database {
+	background: url("new_database.svg") center center no-repeat;
+}
+
+.vs-dark .icon.new-database,
+.hc-black .icon.new-database {
+	background: url("new_database_inverse.svg") center center no-repeat;
+}
+
+.vs .icon.server-page {
+	background: url("server_page.svg") center center no-repeat;
+}
+
+.vs-dark .icon.server-page,
+.hc-black .icon.server-page {
+	background: url("server_page_inverse.svg") center center no-repeat;
+}
+
+.vs .icon.globalError,
+.vs-dark .icon.globalError,
+.hc-black .icon.globalError {
+	background: url("globalerror.svg") center center no-repeat;
+}
+
+.vs .sql.icon.error,
+.vs-dark .sql.icon.error,
+.hc-black .sql.icon.error {
+	content: url("status_error.svg");
+}
+
+.vs .sql.icon.warning,
+.vs-dark .sql.icon.warning,
+.hc-black .sql.icon.warning {
+	content: url("status_warning.svg");
+}
+
+.vs .sql.icon.info,
+.vs-dark .sql.icon.info,
+.hc-black .sql.icon.info {
+	content: url("status_info.svg");
+}
+
+.vs .icon.help {
+	content: url("help.svg");
+}
+
+.vs-dark .icon.help,
+.hc-black .icon.help {
+	content: url("help_inverse.svg");
+}
+
+.vs .icon.success,
+.vs-dark .icon.success,
+.hc-black .icon.success {
+	content: url("status_success.svg");
+}
+
+.vs .icon.canceled,
+.vs-dark .icon.canceled,
+.hc-black .icon.canceled {
+	content: url("status_cancelled.svg");
+}
+
+.vs .icon.in-progress {
+	content: url("loading.svg");
+}
+
+.vs-dark .icon.in-progress,
+.hc-black .icon.in-progress {
+	content: url("loading_inverse.svg");
+}
+
+.vs .icon.scriptToClipboard,
+.vs-dark .icon.scriptToClipboard,
+.hc-black .icon.scriptToClipboard {
+	background-image: url('script_to_clipboard.svg');
+	background-repeat: no-repeat;
+	background-position: 2px center;
+}
+
+.vs .icon.close,
+.vs .icon.remove {
+	background: url('close.svg') center center no-repeat !important;
+}
+
+.vs-dark .icon.close,
+.hc-black .icon.close,
+.vs-dark .icon.remove,
+.hc-black .icon.remove {
+	background: url('close_inverse.svg') center center no-repeat !important;
+}
+
+.vs .icon.filter {
+	background: url("filter.svg") center center no-repeat !important;
+}
+
+.vs-dark .icon.filter,
+.hc-black .icon.filter {
+	background: url("filter_inverse.svg") center center no-repeat !important;
+}
+
+.vs .icon.filterLabel {
+	background-image: url("filter.svg");
+}
+
+.vs-dark .icon.filterLabel,
+.hc-black .icon.filterLabel {
+	background-image: url("filter_inverse.svg");
+}
+
+.vs .icon.clear-filter {
+	background-image: url("clearfilter.svg");
+}
+
+.vs-dark .icon.clear-filter,
+.hc-black .icon.clear-filter {
+	background-image: url("clearfilter_inverse.svg");
+}
+
+.vs .icon.warning-badge,
+.vs-dark .icon.warning-badge,
+.hc-black .icon.warning-badge {
+	background: url("status_warning.svg") center center no-repeat;
+}
+
+.vs .icon.refresh {
+	background-image: url('refresh.svg');
+}
+
+.vs-dark .icon.refresh,
+.hc-black .icon.refresh  {
+	background-image: url('refresh_inverse.svg');
+}
+
+.hc-black .icon.toggle-more,
+.vs-dark .icon.toggle-more {
+	background: url('ellipsis-inverse.svg') center center no-repeat;
+}
+
+.vs .icon.toggle-more {
+	background: url('ellipsis.svg') center center no-repeat;
+}
+
+.hc-black .icon.new,
+.vs-dark .icon.new {
+	background: url('new_inverse.svg') center center no-repeat;
+}
+
+.vs .icon.new {
+	background: url('new.svg') center center no-repeat;
+}
+
+.hc-black .icon.new-query,
+.vs-dark .icon.new-query {
+	background: url('newquery_inverse.svg') center center no-repeat;
+}
+
+.vs .icon.new-query {
+	background: url('newquery.svg') center center no-repeat;
+}
+
+.hc-black .icon.configure-dashboard,
+.vs-dark .icon.configure-dashboard {
+	background: url('configdashboard_inverse.svg') center center no-repeat;
+}
+
+.vs .icon.configure-dashboard {
+	background: url('configdashboard.svg') center center no-repeat;
+}
+
+.hc-black .icon.edit,
+.vs-dark .icon.edit {
+	background: url('edit_inverse.svg') center center no-repeat;
+}
+
+.vs .icon.edit {
+	background: url('edit.svg') center center no-repeat;
+}
+
+.hc-black .icon.pin,
+.vs-dark .icon.pin {
+	background: url('pin_inverse.svg') center center no-repeat;
+}
+
+.vs .icon.pin {
+	background: url('pin.svg') center center no-repeat;
+}
+
+.hc-black .icon.unpin,
+.vs-dark .icon.unpin {
+	background: url('unpin_inverse.svg') center center no-repeat;
+}
+
+.vs .icon.unpin {
+	background: url('unpin.svg') center center no-repeat;
+}
+
+.vs .sql.icon.pause {
+	background-image: url('pause.svg')
+}
+
+.vs-dark .sql.icon.pause,
+.hc-black .sql.icon.pause {
+	background-image: url('pause_inverse.svg')
+}
+
+.vs .sql.icon.continue {
+	background-image: url('continue.svg')
+}
+
+.vs-dark .sql.icon.continue,
+.hc-black .sql.icon.continue {
+	background-image: url('continue_inverse.svg')
+}
+
+.vs .sql.icon.checked {
+	background-image: url('check.svg')
+}
+
+.vs-dark .sql.icon.checked,
+.hc-black .sql.icon.checked {
+	background-image: url('check_inverse.svg')
+}
+
+.vs .sql.icon.start {
+	background-image: url('start.svg')
+}
+
+.vs-dark .sql.icon.start,
+.hc-black .sql.icon.start {
+	background-image: url('start_inverse.svg')
+}
+
+.vs .sql.icon.stop {
+	background-image: url('stop.svg')
+}
+
+.vs-dark .sql.icon.stop,
+.hc-black .sql.icon.stop {
+	background-image: url('stop_inverse.svg')
+}
+
+.small {
+	width: 16px;
+	height: 16px;
+}
+
+.medium {
+	width: 24px;
+	height: 24px;
+}
+
+.large {
+	width: 32px;
+	height: 32px;
+}

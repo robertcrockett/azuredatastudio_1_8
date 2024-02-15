@@ -1,0 +1,541 @@
+[
+	{
+		"c": "@",
+		"t": "source.batchfile keyword.operator.at.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "keyword.operator: #D4D4D4"
+		}
+	},
+	{
+		"c": "echo",
+		"t": "source.batchfile keyword.command.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "keyword: #569CD6"
+		}
+	},
+	{
+		"c": " ",
+		"t": "source.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "off",
+		"t": "source.batchfile keyword.other.special-method.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "keyword: #569CD6"
+		}
+	},
+	{
+		"c": "setlocal",
+		"t": "source.batchfile keyword.command.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "keyword: #569CD6"
+		}
+	},
+	{
+		"c": "title",
+		"t": "source.batchfile keyword.command.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "keyword: #569CD6"
+		}
+	},
+	{
+		"c": " VSCode Dev",
+		"t": "source.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "pushd",
+		"t": "source.batchfile keyword.command.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "keyword: #569CD6"
+		}
+	},
+	{
+		"c": " ",
+		"t": "source.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "%",
+		"t": "source.batchfile punctuation.definition.variable.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "~dp0",
+		"t": "source.batchfile variable.parameter.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "variable: #9CDCFE"
+		}
+	},
+	{
+		"c": "\\..",
+		"t": "source.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "::",
+		"t": "source.batchfile comment.line.colon.batchfile punctuation.definition.comment.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "comment: #7CA668"
+		}
+	},
+	{
+		"c": " Node modules",
+		"t": "source.batchfile comment.line.colon.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "comment: #7CA668"
+		}
+	},
+	{
+		"c": "if",
+		"t": "source.batchfile keyword.control.conditional.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "keyword.control: #C586C0"
+		}
+	},
+	{
+		"c": " ",
+		"t": "source.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "not",
+		"t": "source.batchfile keyword.operator.logical.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "keyword.operator: #D4D4D4"
+		}
+	},
+	{
+		"c": " ",
+		"t": "source.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "exist",
+		"t": "source.batchfile keyword.other.special-method.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "keyword: #569CD6"
+		}
+	},
+	{
+		"c": " node_modules ",
+		"t": "source.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "call",
+		"t": "source.batchfile keyword.control.statement.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "keyword.control: #C586C0"
+		}
+	},
+	{
+		"c": " .\\scripts\\npm.bat install",
+		"t": "source.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "::",
+		"t": "source.batchfile comment.line.colon.batchfile punctuation.definition.comment.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "comment: #7CA668"
+		}
+	},
+	{
+		"c": " Get electron",
+		"t": "source.batchfile comment.line.colon.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "comment: #7CA668"
+		}
+	},
+	{
+		"c": "node .\\node_modules\\gulp\\bin\\gulp.js electron",
+		"t": "source.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "::",
+		"t": "source.batchfile comment.line.colon.batchfile punctuation.definition.comment.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "comment: #7CA668"
+		}
+	},
+	{
+		"c": " Build",
+		"t": "source.batchfile comment.line.colon.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "comment: #7CA668"
+		}
+	},
+	{
+		"c": "if",
+		"t": "source.batchfile keyword.control.conditional.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "keyword.control: #C586C0"
+		}
+	},
+	{
+		"c": " ",
+		"t": "source.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "not",
+		"t": "source.batchfile keyword.operator.logical.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "keyword.operator: #D4D4D4"
+		}
+	},
+	{
+		"c": " ",
+		"t": "source.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "exist",
+		"t": "source.batchfile keyword.other.special-method.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "keyword: #569CD6"
+		}
+	},
+	{
+		"c": " out node .\\node_modules\\gulp\\bin\\gulp.js compile",
+		"t": "source.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "::",
+		"t": "source.batchfile comment.line.colon.batchfile punctuation.definition.comment.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "comment: #7CA668"
+		}
+	},
+	{
+		"c": " Configuration",
+		"t": "source.batchfile comment.line.colon.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "comment: #7CA668"
+		}
+	},
+	{
+		"c": "set",
+		"t": "source.batchfile keyword.command.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "keyword: #569CD6"
+		}
+	},
+	{
+		"c": " ",
+		"t": "source.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "NODE_ENV",
+		"t": "source.batchfile variable.other.readwrite.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "variable: #9CDCFE"
+		}
+	},
+	{
+		"c": "=",
+		"t": "source.batchfile keyword.operator.assignment.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "keyword.operator: #D4D4D4"
+		}
+	},
+	{
+		"c": "development",
+		"t": "source.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "call",
+		"t": "source.batchfile keyword.control.statement.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "keyword.control: #C586C0"
+		}
+	},
+	{
+		"c": " ",
+		"t": "source.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "echo",
+		"t": "source.batchfile keyword.command.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "keyword: #569CD6"
+		}
+	},
+	{
+		"c": " ",
+		"t": "source.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "%%",
+		"t": "source.batchfile constant.character.escape.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "constant.character: #569CD6"
+		}
+	},
+	{
+		"c": "LINE:rem +=",
+		"t": "source.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "%%",
+		"t": "source.batchfile constant.character.escape.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "constant.character: #569CD6"
+		}
+	},
+	{
+		"c": "popd",
+		"t": "source.batchfile keyword.command.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "keyword: #569CD6"
+		}
+	},
+	{
+		"c": "endlocal",
+		"t": "source.batchfile keyword.command.batchfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "keyword: #569CD6"
+		}
+	}
+]

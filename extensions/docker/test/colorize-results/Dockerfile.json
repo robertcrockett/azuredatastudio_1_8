@@ -1,0 +1,310 @@
+[
+	{
+		"c": "FROM",
+		"t": "source.dockerfile keyword.other.special-method.dockerfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "keyword: #569CD6"
+		}
+	},
+	{
+		"c": " ubuntu",
+		"t": "source.dockerfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "MAINTAINER",
+		"t": "source.dockerfile keyword.other.special-method.dockerfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "keyword: #569CD6"
+		}
+	},
+	{
+		"c": " Kimbro Staken",
+		"t": "source.dockerfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "RUN",
+		"t": "source.dockerfile keyword.other.special-method.dockerfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "keyword: #569CD6"
+		}
+	},
+	{
+		"c": " apt-get install -y software-properties-common python",
+		"t": "source.dockerfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "RUN",
+		"t": "source.dockerfile keyword.other.special-method.dockerfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "keyword: #569CD6"
+		}
+	},
+	{
+		"c": " add-apt-repository ppa:chris-lea/node.js",
+		"t": "source.dockerfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "RUN",
+		"t": "source.dockerfile keyword.other.special-method.dockerfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "keyword: #569CD6"
+		}
+	},
+	{
+		"c": " echo ",
+		"t": "source.dockerfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "\"deb http://us.archive.ubuntu.com/ubuntu/ precise universe\"",
+		"t": "source.dockerfile string.quoted.double.dockerfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "string: #CE9178"
+		}
+	},
+	{
+		"c": " >> /etc/apt/sources.list",
+		"t": "source.dockerfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "RUN",
+		"t": "source.dockerfile keyword.other.special-method.dockerfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "keyword: #569CD6"
+		}
+	},
+	{
+		"c": " apt-get update",
+		"t": "source.dockerfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "RUN",
+		"t": "source.dockerfile keyword.other.special-method.dockerfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "keyword: #569CD6"
+		}
+	},
+	{
+		"c": " apt-get install -y nodejs",
+		"t": "source.dockerfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "#",
+		"t": "source.dockerfile comment.line.number-sign.dockerfile punctuation.definition.comment.dockerfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "comment: #7CA668"
+		}
+	},
+	{
+		"c": "RUN apt-get install -y nodejs=0.6.12~dfsg1-1ubuntu1",
+		"t": "source.dockerfile comment.line.number-sign.dockerfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "comment: #7CA668"
+		}
+	},
+	{
+		"c": "RUN",
+		"t": "source.dockerfile keyword.other.special-method.dockerfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "keyword: #569CD6"
+		}
+	},
+	{
+		"c": " mkdir /var/www",
+		"t": "source.dockerfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "ADD",
+		"t": "source.dockerfile keyword.other.special-method.dockerfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "keyword: #569CD6"
+		}
+	},
+	{
+		"c": " app.js /var/www/app.js",
+		"t": "source.dockerfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "CMD",
+		"t": "source.dockerfile keyword.other.special-method.dockerfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "keyword: #569CD6"
+		}
+	},
+	{
+		"c": " [",
+		"t": "source.dockerfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "\"/usr/bin/node\"",
+		"t": "source.dockerfile string.quoted.double.dockerfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "string: #CE9178"
+		}
+	},
+	{
+		"c": ", ",
+		"t": "source.dockerfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	},
+	{
+		"c": "\"/var/www/app.js\"",
+		"t": "source.dockerfile string.quoted.double.dockerfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "string: #CE9178"
+		}
+	},
+	{
+		"c": "] ",
+		"t": "source.dockerfile",
+		"r": {
+			"dark_plus": null,
+			"light_plus": null,
+			"dark_vs": null,
+			"light_vs": null,
+			"hc_black": "default: #FFFFFF"
+		}
+	}
+]
